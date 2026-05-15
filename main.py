@@ -16,7 +16,7 @@ def find_triangles(v, e):
     return triangles
 
 
-## Use example
+## Usage
 
 v = 5
 e = [[0 for _ in range(v)] for _ in range(v)]
