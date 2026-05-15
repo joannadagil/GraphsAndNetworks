@@ -1,6 +1,6 @@
 def find_triangles(v, e):
     '''
-    v - number of vertexes, from 0 to v-1
+    v - number of vertexes
     e - adjacency matrix
     returns a list of triangles in the graph
     multiple edges are counted as multiple triangles
