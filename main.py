@@ -184,3 +184,4 @@ def main():
 
 
 main()
+input("\nNaciśnij Enter, aby zakończyć program...")
