@@ -44,10 +44,6 @@ def read_graph_by_neighbours():
                 print("Błąd: podano wierzchołek spoza zakresu.")
                 exit()
 
-            if a == b:
-                print("Pętla została zapisana, ale nie będzie brana pod uwagę przy szukaniu trójkątów.")
-                continue
-
             temp[a][b] += 1
 
     e = [[0 for _ in range(v)] for _ in range(v)]
@@ -80,10 +76,6 @@ def read_graph_by_edges():
         if a < 0 or a >= v or b < 0 or b >= v:
             print("Błąd: podano wierzchołek spoza zakresu.")
             exit()
-
-        if a == b:
-            print("Pętla została zapisana, ale nie będzie brana pod uwagę przy szukaniu trójkątów.")
-            continue
 
         e[a][b] += 1
         e[b][a] += 1
