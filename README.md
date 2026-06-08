@@ -1,5 +1,7 @@
 # Grafy i sieci - projekt zaliczeniowy
 
+Autorki: Joanna Dagil, Maja Szerszeń
+
 Zadaniem jest stworzenie algorytmu znajdowania trójkątów w grafie spójnym.
 
 ## Założenia
